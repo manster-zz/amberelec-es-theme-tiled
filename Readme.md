@@ -4,6 +4,8 @@ Edited [ES-Theme-Tiled](https://github.com/GeekRhapsody/es-theme-tiled) theme to
 
 Tested on R36S with AmberELEC-RG351MP.aarch64-prerelease-20240804_1341.img.
 
+Change font Size to Large in the theme options!
+
 <table>
   <tr>
     <td><a href='https://github.com/user-attachments/assets/5c2547f6-31e7-4841-b7d7-adf93a99e5fb'><img src="https://github.com/user-attachments/assets/5c2547f6-31e7-4841-b7d7-adf93a99e5fb"  width="300" /></a></td>
