@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="detailed" ifSubset="video:no">
+    <image name="TheGameImage" extra="true">
+      <path>{game:image}</path>
+      <pos>0.37 0.1</pos>
+      <origin>0.0 0.0</origin>
+      <horizontalAlignment>left</horizontalAlignment>
+      <verticalAlignment>left</verticalAlignment>
+      <maxSize>0.50 0.50</maxSize>
+      <zIndex>5</zIndex>
+      <scale>1</scale>
+    </image>
+    </view>
+    
+    <formatVersion>7</formatVersion>
+    <view name="detailed" ifSubset="video:yes">
+      <video name="GameVideo" extra="true">
+        <path>{game:video}</path>
+        <pos>0.37 0.0</pos>
+        <origin>0.0 0.0</origin>
+       <horizontalAlignment>left</horizontalAlignment>
+       <verticalAlignment>left</verticalAlignment>
+        <maxSize>0.65 0.65</maxSize>
+        <delay>1.0</delay>
+       <zIndex>10</zIndex>
+     </video>
+    </view>
+    <formatVersion>7</formatVersion>
+    <view name="detailed" ifSubset="video:yes (1s delay)">
+    <image name="TheGameImage" extra="true">
+      <path>{game:image}</path>
+      <pos>0.37 0.1</pos>
+      <origin>0.0 0.0</origin>
+      <horizontalAlignment>left</horizontalAlignment>
+      <verticalAlignment>left</verticalAlignment>
+      <maxSize>0.50 0.50</maxSize>
+      <zIndex>5</zIndex>
+      <scale>1</scale>
+    </image>
+
+    <video name="GameVideo" extra="true">
+      <path>{game:video}</path>
+      <pos>0.37 0.0</pos>
+      <origin>0.0 0.0</origin>
+      <horizontalAlignment>left</horizontalAlignment>
+      <verticalAlignment>left</verticalAlignment>
+      <maxSize>0.65 0.65</maxSize>
+      <delay>1.0</delay>
+      <zIndex>10</zIndex>
+    </video>
+    </view>
+    <formatVersion>7</formatVersion>
+    <view name="detailed" ifSubset="video:yes (2s delay)">
+    <image name="TheGameImage" extra="true">
+      <path>{game:image}</path>
+      <pos>0.37 0.1</pos>
+      <origin>0.0 0.0</origin>
+      <horizontalAlignment>left</horizontalAlignment>
+      <verticalAlignment>left</verticalAlignment>
+      <maxSize>0.50 0.50</maxSize>
+      <zIndex>5</zIndex>
+      <scale>1</scale>
+    </image>
+
+    <video name="GameVideo" extra="true">
+      <path>{game:video}</path>
+      <pos>0.37 0.0</pos>
+      <origin>0.0 0.0</origin>
+      <horizontalAlignment>left</horizontalAlignment>
+      <verticalAlignment>left</verticalAlignment>
+      <maxSize>0.65 0.65</maxSize>
+      <delay>2.0</delay>
+      <zIndex>10</zIndex>
+    </video>
+    </view>
+</theme>
