@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme defaultView="grid">
+<theme defaultView="detailed">
   <formatVersion>7</formatVersion>
   <variables>
     <shadeStrength>0.3</shadeStrength>
   </variables>
+
+  <subset name="video" displayName="Video in Detailed view">
+    <include name="no" displayName="no"/>
+    <include name="yes" displayName="yes"/>
+    <include name="yes (1s delay)" displayName="yes (1s delay)"/>
+    <include name="yes (2s delay)" displayName="yes (2s delay)"/>
+  </subset>
+
+  <subset name="mdstyle" displayName="Metadata in Detailed view">
+    <include name="Style 1" displayName="Style 1"/>
+    <include name="Style 2" displayName="Style 2"/>
+    <include name="Description" displayName="Description"/>
+    <include name="no" displayName="no"/>
+  </subset>
+
 
   <subset name="factbox" displayName="Factbox">
     <include name="yes" displayName="Yes"/>
@@ -17,6 +32,8 @@
     <include name="thumb" displayName="Thumbnail"/>
     <include name="cartridge" displayName="Cartridge"/>
   </subset>
+
+
 
   <subset name="colorway" displayName="Colorway">
     <include name="extradark" displayName="Extra Dark">./colorway/extradark.xml</include>
@@ -136,6 +153,9 @@
   <include>./gamelistview/basic.xml</include>
   <include>./menu.xml</include>
   <include>./gamelistview/factbox.xml</include>
+  <include>./gamelistview/video.xml</include>
+  <include>./gamelistview/detailedmd.xml</include>
+  
 
   <view name="system,grid,detailed,basic">
     <image name="background" extra="true">
@@ -229,7 +249,7 @@
 
   <view name="grid,detailed,basic">
     <image name="systemLogo" extra="true">
-      <maxSize>0.200 0.039</maxSize>
+      <maxSize>0.400 0.078</maxSize>
       <pos>0.012 0.005</pos>
       <padding>0.005 0.005 0.005 0.005</padding>
       <horizontalAlignment>left</horizontalAlignment>
