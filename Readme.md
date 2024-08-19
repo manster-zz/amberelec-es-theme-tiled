@@ -1,3 +1,9 @@
+# Visit https://github.com/GeekRhapsody/es-theme-tiled for an updated version of this theme
+
+***
+
+<details>
+<summary>old readme</summary>
 # Edited ES-Theme-Tiled for 4:3 handheld devices
 
 Edited [ES-Theme-Tiled](https://github.com/GeekRhapsody/es-theme-tiled) theme to have better compatibility for 4:3 devices (640x480) with AmberELEC firmware. 
@@ -87,3 +93,6 @@ Assets and code structure for system indicators taken from canvas-es: https://gi
 Used screenshots for systems : https://www.screenscraper.fr/
 
 Thanks to mikakunin for the additional system art
+
+
+</details>
